@@ -10,7 +10,7 @@ The wheels and axle were created by modifying files that were generated using th
 
 This design is for a larger robot based around an Arduino Uno and with wheels that attach directly to larger continuous rotation servos rather than using the snap together wheels of the original. 
 
-The bases are laser cut from acrylic so they are stronger than the 3D printed base of the original design, and laser cutting also keeps the fabrication time and material costs down, and were based on prototypng with cardboard and then drawing up the final layout in Illustrator.
+The bases are laser cut from acrylic so they are stronger than the 3D printed base of the original design, and laser cutting also keeps the fabrication time and material costs down, and were based on prototyping with cardboard and then drawing up the final layout in Illustrator.
 
 The idea of using cable ties to attach the servos to a laser cut baseplate came from SimpleBot (though this design does not reuse any of the SimpleBot parts directly). However, we are re-using the bot navigation code from [SimpleBot](https://github.com/nodebotsau/simplebot)
 
