@@ -1,0 +1,13 @@
+{
+  "name": "nbd2015",
+  "version": "1.0.0",
+  "description": "johnny-five code examples to work with HCARDU0085 expansion board for Arduino Uno",
+  "author": "Anna Gerber",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^1.4.0",
+    "johnny-five": "^0.8.81",
+    "keypress": "^0.2.1",
+    "lodash": "^3.10.0"
+  }
+}
