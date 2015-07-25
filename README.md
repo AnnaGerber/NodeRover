@@ -15,7 +15,7 @@ The bases are laser cut from acrylic so they are stronger than the 3D printed ba
 The idea of using cable ties to attach the servos to a laser cut baseplate came from SimpleBot (though this design does not reuse any of the SimpleBot parts directly). However, we are re-using the bot navigation code from [SimpleBot](https://github.com/nodebotsau/simplebot)
 
 
-Build instructions for the bots are here: https://t.co/x3J8mI0ddU
+Build instructions for the bots are here and also under docs as a PDF: https://t.co/x3J8mI0ddU
 
 
 Code examples MIT licensed and based on [node-ardx](https://github.com/AnnaGerber/node-ardx) exercises and Johnny-Five docs.
@@ -23,11 +23,33 @@ Code examples MIT licensed and based on [node-ardx](https://github.com/AnnaGerbe
 Run npm install in the directly where you have downloaded the files to install the libraries then run the code from your teminal/comand prompt using node e.g. node blink.js
 
 
-Note: the HCARDU0085 Arduino expansion board included in our kits has LEDs and Buzzer attached to 5V so on and off are reversed. For this reason, it also helps to add digitalWrite(3, HIGH) to the setup function in the Firmata sketch to avoid the piezo screeching when the board is powered up. you can do the same thing with the LEDs if you want them to be off by default on startup: 
+A schematic for the HCARDU0085 expansion board included in our kits is included under docs. This is how the I/O pins are wired up:
+
+    A0 potentiometer
+    A1 button
+    A2 button
+    A3 button
+    A4 LM35 temperature sensor
+    A5 sensor header pins
+    0 APC220 headers
+    1 APC220 headers
+    2 IR receiver (headers marked IR receiver but could be anything we want)
+    3 piezo
+    4 Latch (segment Shift Register)
+    5 servo header pins
+    6 servo header pins
+    7 Clock (segment SR)
+    8 Data (segment SR)
+    9 servo header pins
+    10 led 4
+    11 led 3
+    12 led 2
+    13 led 1
+
+Note: The expansion board has LEDs and Buzzer attached to 5V so on and off are reversed. For this reason, it also helps to add digitalWrite(3, HIGH) to the setup function in the Firmata sketch to avoid the piezo screeching when the board is powered up. you can do the same thing with the LEDs if you want them to be off by default on startup: 
 
     digitalWrite(13, HIGH);
     digitalWrite(12, HIGH);
     digitalWrite(11, HIGH);
     digitalWrite(10, HIGH);
 
-List to part suppliers coming soon
