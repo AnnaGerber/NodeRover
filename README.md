@@ -6,9 +6,7 @@ Robot kits designed for International NodeBots day 2015 Brisbane event
 
 Physical parts for these kits were designed by AnnaGerber and nog3 and fabricated on the 3D printers and laser cutter at The Edge.
 
-The wheels and axle were created by modifying files that were generated using the OpenSCAD files for the [TrinketRover](https://github.com/rwinscot/TrinketRover)
-
-Read more about TrinketRover [here](https://learn.adafruit.com/trinket-powered-rover/red-rover)
+The wheels and axle were created by modifying files that were generated using the OpenSCAD files for the [TrinketRover](https://github.com/rwinscot/TrinketRover). Read more about TrinketRover [here](https://learn.adafruit.com/trinket-powered-rover/red-rover)
 
 This design is for a larger robot based around an Arduino Uno and with wheels that attach directly to larger continuous rotation servos rather than using the snap together wheels of the original. 
 
@@ -17,10 +15,10 @@ The bases are laser cut from acrylic so they are stronger than the 3D printed ba
 The idea of using cable ties to attach the servos to a laser cut baseplate came from SimpleBot (though this design does not reuse any of the SimpleBot parts directly). However, we are re-using the bot navigation code from [SimpleBot](https://github.com/nodebotsau/simplebot)
 
 
-Build instructions for the bots are here and also under docs as a PDF: https://t.co/x3J8mI0ddU
+Build instructions for the bots are here and also included in this repo under docs as a PDF: https://t.co/x3J8mI0ddU
 
 
-Code examples MIT licensed and based on [node-ardx](https://github.com/AnnaGerber/node-ardx) exercises and Johnny-Five docs.
+Code examples MIT licensed and based on [node-ardx](https://github.com/AnnaGerber/node-ardx) exercises and [Johnny-Five docs](http://johnny-five.io/).
 
 Run npm install in the directly where you have downloaded the files to install the libraries then run the code from your teminal/comand prompt using node e.g. node blink.js
 
